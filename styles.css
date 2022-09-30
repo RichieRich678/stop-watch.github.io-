@@ -1,0 +1,51 @@
+/*Style the H2*/
+
+h2{
+  font-family: consolas, san-serif;
+  color: #ebe305;
+  font-size:30px;
+  
+}
+
+/* buttons styling*/
+.timeBtn{
+  width:80px;
+  height:30px;
+  border: 2px solid;
+  border-radius: 12px;
+  background-color: #1a1919;
+  color: #ebe305;
+  cursor:pointer;
+  font-family: consolas, san-serif;
+}
+
+/* Timer Styling*/
+#timeDisplay{  
+  font-size:78px;
+  color: #ebe305;
+  font-family: consolas, san-serif;
+}
+
+/* Timer container styling*/
+
+#timeContainer{
+  
+  justify-content:center;
+  text-align:center;
+  border: 3px solid;
+  border-radius:30px;
+  background-color:#161616;
+  
+  
+}
+
+@media screen and (max-width: 370px){
+  #timeDisplay{
+    font-size:50px;
+  }
+  
+  .timeBtn{
+  width:60px;  
+  }
+  
+}
